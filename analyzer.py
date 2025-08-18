@@ -1,6 +1,6 @@
 from textblob import TextBlob
 
-text= TextBlob(input("Enter the text to analyzer the sentiment: "))
+text= TextBlob(input("Enter the text to analyze the sentiment: "))
 
 #The text.detect_language()
 print(text.sentiment)
@@ -15,3 +15,4 @@ match Sentiment:
         print("negative")
     case _:
         print("Unknown sentiment!")
+
